@@ -1166,10 +1166,18 @@ body {
   animation-play-state: paused !important;
 }
 
-.text {
-  color: white;
+.text-container {
   position: absolute;
   top: 10vh;
-  z-index: 100;
-  text-align: center;
+
+  .heading {
+    color: white;
+    z-index: 100;
+    text-align: center !important;
+  }
+  .sub-heading {
+    color: white;
+    z-index: 100;
+    text-align: center !important;
+  }
 }
