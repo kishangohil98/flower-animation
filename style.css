@@ -1171,4 +1171,5 @@ body {
   position: absolute;
   top: 10vh;
   z-index: 100;
+  text-align: center;
 }
